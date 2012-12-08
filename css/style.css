@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+}	
+a{
+	text-decoration: none;
+	color:white;
+}
+#home, #about, #gallery, #contact{
+	width: 100%;
+	min-height: 100px;
+}
+#home{
+	background: #9ebdef;
+}
+#about{
+	background: #f;
+}
+#gallery{
+	background: #90b5c5;
+}
+#contact{
+	background: #9cbdbf;	
+}
+article{
+	max-width: 1024px;
+	margin: 0 auto ;
+}
+header{
+	width: 100%;
+	background: #a5c3c5;
+}
+header section{
+	max-width: 1024px;
+	min-width: 320px;		
+	margin: 0 auto;
+}
+header section hgroup{
+	width: 28%;
+	display: inline-block;
+	vertical-align: top;
+	background: cyan
+}
+header section hgroup h1 img{
+	width:100%;
+	height: 100px;
+	background:  white;
+}
+header section aside{
+	width: 70%;
+	height: 200px;
+	background: green;
+	display: inline-block;
+	vertical-align: top;
+}
+header section aside .social{
+	width: 100%;
+	height: 50px;
+	background: white;
+}
+header section aside nav{
+	width: 100%;
+	height: 50px;
+	background: red;
+}
+header section aside nav li{
+	display: inline-block;
+}
+header section aside nav li a{
+
+}
+header section aside .titulo{
+	width: 100%;
+	height: 50px;
+	background: green;	
+}
